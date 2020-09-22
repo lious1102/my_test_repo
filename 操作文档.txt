@@ -1,0 +1,11 @@
+1、假如现在有一个网站后台需要测试工程师进行测试用例设计。用常规的方法将参数列出：
+（符号是英文）
+帐户名: 空,不存在,超长,超短,正常
+密码: 空,超长,超短,不匹配,正常 
+验证码: 空,超长,超短,不匹配,正常 
+会话: 保存一个月,保存三个月,保存一年,不保存 
+按钮: 确定,取消
+2、下载安装pict33.msi，安装完后找到文件pict.exe所在目录。默认安装的在C:\Program Files\PICT 目录下。这里是在D:\TestingTool\PICT\InStallFile里面
+3、在C:\Program Files\PICT（这里是D:\TestingTool\PICT\InStallFile）目录下新建一个txt文本。把参数填入txt文本中。
+4\打开开始-运行，输入CMD进入命令提示符。输入命令cd C:\Program Files\PICT\ 进入工作目录。输入pict test.txt 命令输出结果。也可以将结果输出到excel文档中。
+若想输出到excel中，则使用pict test.txt >text.xls命令
